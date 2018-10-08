@@ -201,7 +201,30 @@ a[id^="menu"] {
     height: 30px;  
     padding: 2px 0;  
 }
-
-
+//adding button style and hover changes has a touch more contrast. Used the element tag so the owner can select identifiers as desired.
+button {
+    background-color: #57ABFF;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 7px 7px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+button:hover {
+    background-color: black;
+    border: none;
+    color: #57ABFF;
+    padding: 7px 7px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #57ABFF;
+}
 
 
